@@ -1,0 +1,31 @@
+
+blank_issues_enabled: false
+contact_links:
+  - name: PaperMod Discussions
+    url: https://github.com/adityatelange/hugo-PaperMod/discussions
+    about: Please ask and answer questions/doubts here, DO NOT open an issue for questions.
+
+baseURL: 'https://dipoisola.github.io/'
+languageCode: 'en-us'
+title: dipofalco
+theme: PaperMod
+
+# home-info mode
+homeInfoParams:
+  Title: "Hi there \U0001F44B"
+  Content: Welcome to O11y Cloud.com
+
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: example
+      name: home
+      url: http://localhost:1313/
+      weight: 30
